@@ -6,15 +6,7 @@ const teacher = {
   name: 'muhizi',
   subject: 'Math',
 };
+let text =  `${student.name} your age is ${student.age} and your teacher is ${teacher.name} the subject is ${teacher.subject}`
+console.log(text);
+ 
 
-console.log(
-  "dear " + '\n'+
-    student.name + '\n\n' +
-    " age of " +'\n'+ 
-    student.age + '\n\n'+
-    " your teacher " +
-    teacher.name +
-    " subject of " +  
-    teacher.subject + 
-    " needs to see you "
-);
