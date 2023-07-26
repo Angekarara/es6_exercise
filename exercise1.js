@@ -8,10 +8,10 @@ const teacher = {
 };
 
 console.log(
-  "dear " +
-    student.name +
-    " age of " +
-    student.age +
+  "dear " + '\n'+
+    student.name + '\n\n' +
+    " age of " +'\n'+ 
+    student.age + '\n\n'+
     " your teacher " +
     teacher.name +
     " subject of " +  
