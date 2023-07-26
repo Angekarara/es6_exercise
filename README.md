@@ -38,3 +38,14 @@ dearange age of 12 your teacher muhizi subject of Math needs to see you
 User@DESKTOP-18JCNLB MINGW64 ~/Desktop/ES6
 $ node exercise1.js
 dear ange age of 12 your teacher muhizi subject of Math needs to see you
+
+using template literals
+User@DESKTOP-18JCNLB MINGW64 ~/Desktop/ES6 (main)
+$ node exercise1.js
+ange your age is 12 and your teacher is muhizi the subject is Math
+
+User@DESKTOP-18JCNLB MINGW64 ~/Desktop/ES6 (main)
+$ git add .
+
+User@DESKTOP-18JCNLB MINGW64 ~/Desktop/ES6 (main)
+$ git commit -m "using template literals"
