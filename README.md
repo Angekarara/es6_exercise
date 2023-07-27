@@ -49,3 +49,52 @@ $ git add .
 
 User@DESKTOP-18JCNLB MINGW64 ~/Desktop/ES6 (main)
 $ git commit -m "using template literals"
+User@DESKTOP-18JCNLB MINGW64 ~/Desktop/ES6 (main)
+$ node exercise6.js 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+User@DESKTOP-18JCNLB MINGW64 ~/Desktop/ES6 (main)
+$ node exercise6.js 
+4
+1
+2
+3
+9
+5
+6
+7
+8
+9
+
+User@DESKTOP-18JCNLB MINGW64 ~/Desktop/ES6 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        exercise4.js
+        exercise5.js
+        exercise6.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@DESKTOP-18JCNLB MINGW64 ~/Desktop/ES6 (main)
+$ git add .
+
+User@DESKTOP-18JCNLB MINGW64 ~/Desktop/ES6 (main)
+$ git commit -m "exercise6"
+[main 8e42f0d] exercise6
+ 3 files changed, 25 insertions(+)
+ create mode 100644 exercise4.js
+ create mode 100644 exercise5.js
+ create mode 100644 exercise6.js
