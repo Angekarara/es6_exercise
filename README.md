@@ -98,3 +98,7 @@ $ git commit -m "exercise6"
  create mode 100644 exercise4.js
  create mode 100644 exercise5.js
  create mode 100644 exercise6.js
+for this2.js we used arrow function and the spoon was incremented because in arrow function
+this keyword is used depending on the location of a function.
+while for regular function it could'nt increment because this keyword could work globally
+not in the scope of setTimeOut.
