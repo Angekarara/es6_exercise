@@ -98,7 +98,8 @@ $ git commit -m "exercise6"
  create mode 100644 exercise4.js
  create mode 100644 exercise5.js
  create mode 100644 exercise6.js
-for this2.js we used arrow function and the spoon was incremented because in arrow function
-this keyword is used depending on the location of a function.
-while for regular function it could'nt increment because this keyword could work globally
-not in the scope of setTimeOut.
+
+ 
+in this2.js the value of this inside addScoop() refers to dessert. Since an arrow function is passed to setTimeout(), it's using its surrounding context to determine what this refers to inside itself. So since this outside of the arrow function refers to dessert, the value of this inside the arrow function will also refer to dessert.
+
+in this3.js i changed the addScoop() method to an arrow function and it didn't work becausearrow functions inherit their this value from their surrounding context. Outside of the addScoop() method, the value of this is the global object. So if addScoop() is an arrow function, the value of this inside addScoop() is the global object. Which then makes the value of this in the function passed to setTimeout() also set to the global object!
