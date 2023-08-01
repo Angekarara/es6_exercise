@@ -8,3 +8,5 @@ class plane{
         this.enginesActive = true;
     }
 }
+const planes = new plane()
+planes.startEngine()
