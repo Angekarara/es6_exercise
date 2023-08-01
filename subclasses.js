@@ -7,12 +7,13 @@ class Vehicle {
 
 	honkHorn() {
 		console.log(this.horn);
-        console.log(this.wheels)
+        console.log(this.wheels);
+        console.log(this.color);
 	}
 }
 class Bicycle extends Vehicle {
-  constructor(color = 'blue') {
-    super(color, 2, 'honk honk');
+  constructor() {
+    super('blue', 2, 'honk honk');
   }
 }
 
@@ -24,3 +25,5 @@ myBike.honkHorn(); // honk honk
 
 const myWheel = new Bicycle();
 myWheel.honkHorn(); //2
+const myColor = new Bicycle();
+myColor.honkHorn(); //2
