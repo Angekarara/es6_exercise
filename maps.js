@@ -9,8 +9,11 @@ employees.set('ange', {
     sex:'male'
 })
 const add = employees.has('ange')
+
 console.log(employees)
+
 console.log(employees.get('kevine'))
+
 for (let employee of employees){
     console.log(employee)
 }
