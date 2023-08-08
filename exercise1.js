@@ -4,7 +4,7 @@ const student = {
 };
 const teacher = {
   name: 'muhizi',
-  subject: 'Math',
+  subject: 'Mathing',
 };
 let text =  `${student.name},
  your age is ${student.age} and,
